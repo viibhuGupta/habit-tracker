@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  @apply text-textColor;
+}
+
+@layer utilities {
+  /* Button */
+  .btn {
+    @apply flex rounded-lg justify-center items-center text-center ;
+  }
+}

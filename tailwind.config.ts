@@ -1,3 +1,4 @@
+import { color } from "framer-motion";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -7,11 +8,19 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      'textColor': '#e8f7f9',
+      'bgColor': '#081b1c',
+      'primary': '#8edce0',
+      'secondary': '#582689',
+      'accent': '#be41cb',
+      'decent':'#0F2526',
+     },
+
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        gtRG: ["var(--font-gtRG)"],
+        gtTrial: ["var(--font-gtTrial)"],
       },
     },
   },
