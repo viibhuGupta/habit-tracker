@@ -1,4 +1,4 @@
-Project Demo [HABIT TRACKER](https://habittrackerme.vercel.app/)
+Project Demo [HABIT TRACKER](https://habit-trackerr.vercel.app/)
 
 ## Project Stack's Used 
  - Next js 
